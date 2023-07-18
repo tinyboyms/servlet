@@ -33,8 +33,7 @@ public class FinalServlet extends HttpServlet {
               String qlfy=request.getParameter("qlfy");
               String pro=request.getParameter("desig");
               String ct=request.getParameter("ct");
-
-
+//print the data
               ot.println("Name "+name);
               ot.println("Phone "+phone);
               ot.println("Email "+eml);
